@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoration Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="decoration.css">
+</head>
+
+<body id="home">
+    <nav class="navbar">
+        <div class="logo">RADHE <span class="logo_1">TENT HOUSE</span></div>
+        <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+        <ul id="navLinks">
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#designs"><i class="fas fa-paint-brush"></i> Our Special Features</a></li>
+            <li><a href="#special"><i class="fas fa-star"></i> Special Designs</a></li>
+            <li><a href="#contact"><i class="fas fa-phone-alt"></i> Contact Us</a></li>
+            <li><a href="#location"><i class="fas fa-map-marker-alt"></i> Our Office Location</a></li>
+            <li><a href="#company-details"><i class="fas fa-building"></i> About Us</a></li>
+            <li><a href="#social-media"><i class="fas fa-share-alt"></i> Social Media</a></li>
+        </ul>
+    </nav>
+    <div class="carousel" style="margin-top: 2px;">
+        <div class="carousel-track" id="carouselTrack">
+            <div class="carousel-item">
+                <img src="jagran decoration.webp" alt="Design 1">
+                <div class="carousel-caption">
+                    <h3>TENT DECORATION FOR DEVI JAGRAN</h3>
+                    <p>Contact us for more details <br> OF BEST PRICE FOR <br> DEVI JAGARAN TENT</p>
+                    <a href="#contact" class="carousel-button">Contact Us</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="dej and light.webp" alt="Design 1">
+                <div class="carousel-caption">
+                    <h3>DJ & LIGHT DECORATION FOR THE PARTY FUNCTIONS</h3>
+                    <p>Contact us for more details <br> ABOUT THE BEST PRICE OF <br> THE DJ & LIGHT </p>
+                    <a href="#contact" class="carousel-button">Contact Us</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="birthdayparty.webp" alt="Design 2">
+                <div class="carousel-caption">
+                    <h3>DECORATION FOR THE BIRTHDAY FUNCTION</h3>
+                    <p>Contact us for more details <br> FOR THE BEST PRICE FOR <br> BIRTHDAY DECORATION</p>
+                    <a href="#contact" class="carousel-button">Contact Us</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="outdoor mandap.webp" alt="Design 3">
+                <div class="carousel-caption">
+                    <h3>WEDDING FUNCTION DECORATION</h3>
+                    <p>Contact us for more details <br> OR KNNOW THE BEST PRICE <br> FOR YOUR WEDDING FUNCTION DECORATION</p>
+                    <a href="#contact" class="carousel-button">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="designs" class="features-section">
+        <h2 class="heading">Our Special Features</h2>
+        <div class="feature-cards">
+            <div class="card">
+                <div class="card-border-top"></div>
+                <div class="img" style="background-image: url('normal party.webp');"></div>
+                <span>Wedding Elegance</span>
+                <p class="job">Elegant and beautiful wedding setups</p>
+                <button data-modal="weddingEleganceModal">See More</button>
+            </div>
+            <div class="card">
+                <div class="card-border-top"></div>
+                <div class="img" style="background-image: url('stage 2.webp');"></div>
+                <span>Grand Stage Setup</span>
+                <p class="job">Impressive stage designs for events</p>
+                <button data-modal="grandStageSetupModal">See More</button>
+            </div>
+            <div class="card">
+                <div class="card-border-top"></div>
+                <div class="img" style="background-image: url('royal\ ivent\ stage.webp');"></div>
+                <span>Professional Setups</span>
+                <p class="job">Corporate event decorations</p>
+                <button data-modal="professionalSetupsModal">See More</button>
+            </div>
+            <div class="card">
+                <div class="card-border-top"></div>
+                <div class="img" style="background-image: url('corporate\ party.webp');"></div>
+                <span>Elegant Conferences</span>
+                <p class="job">Sophisticated conference setups</p>
+                <button data-modal="elegantConferencesModal">See More</button>
+            </div>
+            <div class="card">
+                <div class="card-border-top"></div>
+                <div class="img" style="background-image: url('birthdayparty.webp');"></div>
+                <span>Fun & Colorful</span>
+                <p class="job">Vibrant birthday party decorations</p>
+                <button data-modal="funColorfulModal">See More</button>
+            </div>
+            <div class="card">
+                <div class="card-border-top"></div>
+                <div class="img" style="background-image: url('golden decoration.webp');"></div>
+                <span>Themed Parties</span>
+                <p class="job">Creative themed party setups</p>
+                <button data-modal="themedPartiesModal">See More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="special">
+        <h2 class="heading">Our Special Design</h2>
+        <div class="feature-cards">
+            <div class="card">
+                <div class="card-border-top"></div>
+                <div class="img" style="background-image: url('corporate party.webp');"></div>
+                <span>Professional Setups</span>
+                <p class="job">Corporate event decorations</p>
+                <button onclick="window.open('professional-setups.html', '_blank')">See More</button>
+            </div>
+            <div class="card">
+                <div class="card-border-top"></div>
+                <div class="img" style="background-image: url('normal party.webp');"></div>
+                <span>Elegant Conferences</span>
+                <p class="job">Sophisticated conference setups</p>
+                <button onclick="window.open('elegant-conferences.html', '_blank')">See More</button>
+            </div>
+        </div>
+        <div class="feature-category">
+            <h3 class="heading">Birthday Celebrations</h3>
+            <div class="feature-cards">
+                <div class="card">
+                    <div class="card-border-top"></div>
+                    <div class="img" style="background-image: url('birthdayparty.webp');"></div>
+                    <span>Fun & Colorful</span>
+                    <p class="job">Vibrant birthday party decorations</p>
+                    <button onclick="window.open('fun-colorful.html', '_blank')">See More</button>
+                </div>
+                <div class="card">
+                    <div class="card-border-top"></div>
+                    <div class="img" style="background-image: url('indoor function.webp');"></div>
+                    <span>Themed Parties</span>
+                    <p class="job">Creative themed party setups</p>
+                    <button onclick="window.open('themed-parties.html', '_blank')">See More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="heading">Contact Us</h2>
+        <div class="contact-container">
+            <div class="company-details" id="company-details">
+                <img src="logo radhe.webp" alt="Company Logo" class="company-logo"> <!-- Add your logo image here -->
+                <h3>Company Details</h3>
+                <p><strong>Contact Number:</strong> <a href="tel:+1234567890" style="color: #3b82f6; text-decoration: none;">+1234567890</a></p>
+                <p><strong>Email:</strong> <a href="mailto:info@radhetenthouse.com" style="color: #3b82f6; text-decoration: none;">info@radhetenthouse.com</a></p>
+                <p><strong>WhatsApp:</strong> <a href="https://wa.me/1234567890" target="_blank" style="color: #3b82f6; text-decoration: none;">+1234567890</a></p>
+                <p><strong>Address:</strong> <a href="https://www.google.com/maps?q=123+Main+Street,+City,+Country" target="_blank" style="color: #3b82f6; text-decoration: none;">123 Main Street, City, Country</a></p>
+                <h4>Branches</h4>
+                <p><strong>Bhavna Tent House</strong></p>
+                <p>Address: <a href="https://www.google.com/maps?q=Vrindavan" target="_blank" style="color: #3b82f6; text-decoration: none;">Vrindavan</a></p>
+                <p>Contact: <a href="tel:+0987654321" style="color: #3b82f6; text-decoration: none;">+0987654321</a></p>
+            </div>
+            <div class="contact-card">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="number">Phone Number:</label>
+                    <input type="tel" id="number" name="number" required>
+                    
+                    <label for="query">Query:</label>
+                    <textarea id="query" name="query" rows="4" required></textarea>
+                    
+                    <button type="submit">Submit</button>
+                    <a href="https://wa.me/yourphonenumber" target="_blank" class="whatsapp-button"><i class="fab fa-whatsapp"></i> Contact via WhatsApp</a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="location">
+        <h2 class="heading">Our Office Location</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019084509872!2d144.9630579153169!3d-37.81410797975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d1b1f5e6e0b!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1611819471234!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section id="social-media">
+        <h2 class="heading">Follow Us on Social Media</h2>
+        <div class="social-icons">
+            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 RADHE TENT HOUSE. All rights reserved.</p>
+    </footer>
+
+    <!-- Modal Structure for Wedding Elegance -->
+    <div id="weddingEleganceModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img src="normal party.webp" alt="Wedding Elegance" class="modal-image">
+            <h2>Wedding Elegance</h2>
+            <p>Elegant and beautiful wedding setups that create unforgettable memories. Our wedding elegance features include:</p>
+            <ul>
+                <li>Stunning floral arrangements</li>
+                <li>Luxurious seating and decor</li>
+                <li>Customizable themes and colors</li>
+                <li>Professional lighting and sound</li>
+                <li>Experienced event planners</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Modal Structure for Grand Stage Setup -->
+    <div id="grandStageSetupModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img src="stage 2.webp" alt="Grand Stage Setup" class="modal-image">
+            <h2>Grand Stage Setup</h2>
+            <p>Impressive stage designs for events. Our grand stage setup features include:</p>
+            <ul>
+                <li>Large and customizable stages</li>
+                <li>Professional lighting and sound</li>
+                <li>High-quality backdrops and props</li>
+                <li>Experienced stage designers</li>
+                <li>Seamless integration with event themes</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Modal Structure for Professional Setups -->
+    <div id="professionalSetupsModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img src="corporate party.webp" alt="Professional Setups" class="modal-image">
+            <h2>Professional Setups</h2>
+            <p>Corporate event decorations. Our professional setups features include:</p>
+            <ul>
+                <li>Elegant and professional decor</li>
+                <li>Customizable themes and colors</li>
+                <li>Professional lighting and sound</li>
+                <li>Experienced event planners</li>
+                <li>Seamless integration with corporate branding</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Modal Structure for Elegant Conferences -->
+    <div id="elegantConferencesModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img src="royal ivent stage.webp" alt="Elegant Conferences" class="modal-image">
+            <h2>Elegant Conferences</h2>
+            <p>Sophisticated conference setups. Our elegant conferences features include:</p>
+            <ul>
+                <li>Professional and elegant decor</li>
+                <li>Customizable themes and colors</li>
+                <li>Professional lighting and sound</li>
+                <li>Experienced event planners</li>
+                <li>Seamless integration with conference themes</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Modal Structure for Fun & Colorful -->
+    <div id="funColorfulModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img src="birthdayparty.webp" alt="Fun & Colorful" class="modal-image">
+            <h2>Fun & Colorful</h2>
+            <p>Vibrant birthday party decorations. Our fun & colorful features include:</p>
+            <ul>
+                <li>Bright and colorful decor</li>
+                <li>Customizable themes and colors</li>
+                <li>Professional lighting and sound</li>
+                <li>Experienced event planners</li>
+                <li>Fun and engaging activities</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Modal Structure for Themed Parties -->
+    <div id="themedPartiesModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img src="golden decoration.webp" alt="Themed Parties" class="modal-image">
+            <h2>Themed Parties</h2>
+            <p>Creative themed party setups. Our themed parties features include:</p>
+            <ul>
+                <li>Unique and creative themes</li>
+                <li>Customizable decor and props</li>
+                <li>Professional lighting and sound</li>
+                <li>Experienced event planners</li>
+                <li>Engaging and immersive experiences</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.getElementById("menuToggle");
+            const navLinks = document.getElementById("navLinks");
+            const links = document.querySelectorAll('#navLinks a'); // Select all the links inside navLinks
+
+            // Toggle menu visibility on mobile
+            menuToggle.addEventListener("click", function () {
+                navLinks.classList.toggle("active");
+            });
+
+            // Close the menu when a link is clicked (for mobile)
+            links.forEach(link => {
+                link.addEventListener("click", function () {
+                    navLinks.classList.remove("active"); // Close the menu
+                });
+            });
+
+            const track = document.getElementById("carouselTrack");
+            const items = track.children;
+            let currentIndex = 0;
+
+            const updateSlidePosition = () => {
+                for (let i = 0; i < items.length; i++) {
+                    items[i].classList.remove("active");
+                }
+                items[currentIndex].classList.add("active");
+            };
+
+            const nextSlide = () => {
+                currentIndex = (currentIndex + 1) % items.length;
+                track.style.transform = `translateX(-${currentIndex * 100}%)`;
+                updateSlidePosition();
+            };
+
+            setInterval(nextSlide, 3000); // Change image every 3 seconds
+
+            updateSlidePosition(); // Initialize the first slide
+
+            // Smooth scroll functionality for anchor links
+            links.forEach(link => {
+                link.addEventListener("click", function (event) {
+                    event.preventDefault(); // Prevent default link behavior
+                    const targetId = link.getAttribute("href").substring(1); // Get the target section's id
+                    const targetSection = document.getElementById(targetId); // Get the section element
+                    targetSection.scrollIntoView({ behavior: 'smooth' }); // Scroll smoothly to that section
+                });
+            });
+
+            const cards = document.querySelectorAll('.card');
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    } else {
+                        entry.target.classList.remove('visible');
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+
+            cards.forEach(card => {
+                observer.observe(card);
+            });
+
+            // Modal functionality
+            const buttons = document.querySelectorAll(".card button");
+            buttons.forEach(button => {
+                button.addEventListener("click", function () {
+                    const modalId = button.getAttribute("data-modal");
+                    const modal = document.getElementById(modalId);
+                    if (modal) {
+                        modal.style.display = "block";
+                    }
+                });
+            });
+
+            const closeButtons = document.querySelectorAll(".close-button");
+            closeButtons.forEach(button => {
+                button.addEventListener("click", function () {
+                    button.closest(".modal").style.display = "none";
+                });
+            });
+
+            window.onclick = function (event) {
+                if (event.target.classList.contains("modal")) {
+                    event.target.style.display = "none";
+                }
+            };
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
